@@ -203,7 +203,7 @@ char = segment_characters(plate_out) #showing plates
 #model
 
 
-model = keras.models.load_model(r'license_plate2.h5')
+model = keras.models.load_model(r'license_plate34.h5')
 
 #model = Sequential()
 #model.add(Conv2D(32, (24,24), input_shape=(28, 28, 3), activation='relu', padding='same'))
